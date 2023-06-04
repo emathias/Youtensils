@@ -26,6 +26,7 @@ $(document).ready(function () {
 
         on: {
             init: function () {
+                console.log("init");
                 var swiper_pagination_bulletwe_style = document.createElement('style'); swiper_pagination_bulletwe_style.type = 'text/css'; swiper_pagination_bulletwe_style.innerHTML =
                     ` .swiper-pagination-bullet{   background:#fff;
                     margin-right:8px;
