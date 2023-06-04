@@ -3,7 +3,7 @@
 // src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 $(document).ready(function () {
     var slider_wrapper = new Swiper(".speaker-slider", {
-        wrapperClass: "slider-list",
+        wrapperClass: "slider-slider-wrapper",
         slideClass: "speaker-slider-item",
         navigation: {
             nextEl: '.next-slide',
